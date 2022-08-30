@@ -1,0 +1,126 @@
+#head{
+    display: flex;
+    background-color: #a1cdce;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+    margin-bottom: 0px;
+}
+.x{
+    margin-bottom: 0px;
+}
+#head h1{
+    margin:0px;
+    font-size: 4vw;
+}
+h2{
+    font-size: 2vw;
+    margin:0px;
+    align-self: center;
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+.nav{
+    background-color: #75E6DA;
+    margin-right:20vw;
+    margin-left:20vw;
+    display: flex;
+    justify-content: space-between ;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+span{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px;
+}
+p{
+        text-decoration: none;
+        font-size: 1em;
+        text-transform: uppercase;
+        margin: 0px;
+        align-self: center;
+}
+body{
+    background-color: #D4F1F4;
+    margin:0px;
+}
+section{
+    background-color: #75E6DA;
+}
+
+
+.square {
+    height: 15vw;
+    width: 15vw;
+    background-color: grey;
+    border-radius: 2em;
+    margin: 1.5em;
+    box-shadow: 3px whitesmoke;
+    filter: drop-shadow(0 0 0.5rem #75E6DA);
+
+  }
+
+#container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #D4F1F4;
+    justify-content: center;
+    margin-right:12vw;
+    margin-left:12vw;
+}
+#colordisp{
+    text-transform: uppercase;
+}
+
+a:active{
+    background-color: blueviolet;
+    color: white;
+}
+button{
+    background-color: #75E6DA;
+    padding:.5em;
+    border:none;
+    cursor: pointer;
+    box-shadow:none;
+    filter: none;
+    font-weight: 800;
+    color:05445E ;
+}
+button:hover, .selected{
+background-color: #05445E;
+color: white;
+}
+#box{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin-right:6.5vw;
+    margin-left:6.5vw;
+    justify-content: center;
+}
+
+@media screen and (max-width: 500px){
+    .nav{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    #head h1{
+        font-size: 1em;
+    }
+    h2{
+        font-size:1em;
+        margin:0px;
+    }
+    button{
+        font-size: .8em;
+    }
+
+}
+
+
