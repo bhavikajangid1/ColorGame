@@ -134,7 +134,10 @@ color: white;
         margin-right:8vw;
         margin-left:8vw;
     }
-
+    #head h1{
+        margin:0px;
+        font-size: 2em;
+    }
 
 
 }
